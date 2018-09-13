@@ -12,6 +12,8 @@
 		BB6E095D21484257006D2C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6E095B21484257006D2C66 /* Main.storyboard */; };
 		BB6E095F21484258006D2C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6E095E21484258006D2C66 /* Assets.xcassets */; };
 		BB6E096221484258006D2C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6E096021484258006D2C66 /* LaunchScreen.storyboard */; };
+		BBEFDB71214A7F0E009B386A /* CafeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEFDB6F214A7F0D009B386A /* CafeManager.swift */; };
+		BBEFDB72214A7F0E009B386A /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEFDB70214A7F0D009B386A /* Cafe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BB6E095E21484258006D2C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB6E096121484258006D2C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB6E096321484258006D2C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEFDB6F214A7F0D009B386A /* CafeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeManager.swift; sourceTree = "<group>"; };
+		BBEFDB70214A7F0D009B386A /* Cafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				BB6E095721484257006D2C66 /* AppDelegate.swift */,
 				BB6E095921484257006D2C66 /* ViewController.swift */,
+				BBEFDB70214A7F0D009B386A /* Cafe.swift */,
+				BBEFDB6F214A7F0D009B386A /* CafeManager.swift */,
 				BB6E095B21484257006D2C66 /* Main.storyboard */,
 				BB6E095E21484258006D2C66 /* Assets.xcassets */,
 				BB6E096021484258006D2C66 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBEFDB72214A7F0E009B386A /* Cafe.swift in Sources */,
 				BB6E095A21484257006D2C66 /* ViewController.swift in Sources */,
+				BBEFDB71214A7F0E009B386A /* CafeManager.swift in Sources */,
 				BB6E095821484257006D2C66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
