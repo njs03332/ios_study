@@ -12,8 +12,8 @@
 		BB6E095D21484257006D2C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6E095B21484257006D2C66 /* Main.storyboard */; };
 		BB6E095F21484258006D2C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6E095E21484258006D2C66 /* Assets.xcassets */; };
 		BB6E096221484258006D2C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6E096021484258006D2C66 /* LaunchScreen.storyboard */; };
-		BB6E096B2148428F006D2C66 /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6E09692148428F006D2C66 /* Cafe.swift */; };
-		BB6E096C2148428F006D2C66 /* CafeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6E096A2148428F006D2C66 /* CafeManager.swift */; };
+		BBEFDB6D214A7E4C009B386A /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEFDB6B214A7E4C009B386A /* Cafe.swift */; };
+		BBEFDB6E214A7E4C009B386A /* CafeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEFDB6C214A7E4C009B386A /* CafeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		BB6E095E21484258006D2C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB6E096121484258006D2C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB6E096321484258006D2C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB6E09692148428F006D2C66 /* Cafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cafe.swift; path = ../../ViewCafeManager/ViewCafeManager/Cafe.swift; sourceTree = "<group>"; };
-		BB6E096A2148428F006D2C66 /* CafeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CafeManager.swift; path = ../../ViewCafeManager/ViewCafeManager/CafeManager.swift; sourceTree = "<group>"; };
+		BBEFDB6B214A7E4C009B386A /* Cafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cafe.swift; path = ../../../ViewCafeManager/ViewCafeManager/Cafe.swift; sourceTree = "<group>"; };
+		BBEFDB6C214A7E4C009B386A /* CafeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CafeManager.swift; path = ../../../ViewCafeManager/ViewCafeManager/CafeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 				BB6E095921484257006D2C66 /* ViewController.swift */,
 				BB6E095B21484257006D2C66 /* Main.storyboard */,
 				BB6E095E21484258006D2C66 /* Assets.xcassets */,
-				BB6E09692148428F006D2C66 /* Cafe.swift */,
-				BB6E096A2148428F006D2C66 /* CafeManager.swift */,
+				BBEFDB6B214A7E4C009B386A /* Cafe.swift */,
+				BBEFDB6C214A7E4C009B386A /* CafeManager.swift */,
 				BB6E096021484258006D2C66 /* LaunchScreen.storyboard */,
 				BB6E096321484258006D2C66 /* Info.plist */,
 			);
@@ -143,8 +143,8 @@
 			files = (
 				BB6E095A21484257006D2C66 /* ViewController.swift in Sources */,
 				BB6E095821484257006D2C66 /* AppDelegate.swift in Sources */,
-				BB6E096C2148428F006D2C66 /* CafeManager.swift in Sources */,
-				BB6E096B2148428F006D2C66 /* Cafe.swift in Sources */,
+				BBEFDB6D214A7E4C009B386A /* Cafe.swift in Sources */,
+				BBEFDB6E214A7E4C009B386A /* CafeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
